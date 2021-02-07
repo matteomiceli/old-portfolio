@@ -1,8 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
 
 body {
     margin: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    display: grid;
+    grid-template-columns: 140px auto;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: right;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.nav-list {
+    padding: 15vh 10px 0 0;
+    margin: 0px;
+}
+
+.list-item {
+    list-style: none;
+    text-align: right;
+    color: grey;
 }
 
 .container {
@@ -10,4 +33,17 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    /* width: 100vw; */
+}
+
+.container-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 5vw 10vw;
+}
+
+h1{ 
+    font-size: 3em;
+    font-weight: bold;
 }
