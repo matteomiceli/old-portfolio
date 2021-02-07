@@ -67,11 +67,11 @@ main {
     flex-direction: row;
 }
 
-.splash-cursor {
-    height: 82px;
-    width: 38px;
+.cursor {
+    height: 28px;
+    width: 12px;
     background-color: white;
-    margin: 0 5px;
+    margin: 18px 5px;
     animation: cursor 1.2s step-start infinite;
 }
 
