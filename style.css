@@ -43,6 +43,11 @@ a:hover {
     cursor: pointer;
 }
 
+main { 
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
 
 .splash {
     display: flex;
@@ -50,7 +55,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* width: 100vw; */
+    scroll-snap-align: center;
 }
 
 .splash-text {
@@ -73,8 +78,11 @@ a:hover {
 .container-white {
     display: flex;
     flex-direction: column;
-    padding: 5vw 10vw;
+    justify-content: center;
+    padding: 0 10vw;
     background-color: #f1f1f1;
+    height: 100vh;
+    scroll-snap-align: center;
 }
 
 h1{ 
