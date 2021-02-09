@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="19.050371mm"
+   height="12.192225mm"
+   viewBox="0 0 19.050371 12.192225"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="mail.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="421.65521"
+     inkscape:cy="258.10491"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="308"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-84.079878,-72.990143)">
+    <path
+       d="m 221.09911,154.7209 -37.01903,-31.73076 37.01903,-31.730769 v 0 l -5.04804,-5.04808 -53.8462,46.153859 -53.846,-46.153859 -5.04806,5.04808 v 0 l 37.01908,31.730769 -37.01908,31.73076 v 0 l 5.04806,5.04808 37.43976,-32.09134 16.40624,14.0625 16.40648,-14.0625 37.43972,32.09134 z M 96.602417,72.990143 c -6.916064,0 -12.522539,5.590702 -12.522539,12.462878 v 75.074249 c 0,6.8831 5.561093,12.46287 12.522539,12.46287 H 227.80757 c 6.91582,0 12.52249,-5.59068 12.52249,-12.46287 V 85.453021 c 0,-6.883069 -5.56108,-12.462878 -12.52249,-12.462878 z"
+       id="mail-envelope-closed"
+       sketch:type="MSShapeGroup"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:6.25002" />
+  </g>
+</svg>
