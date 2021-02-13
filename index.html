@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" type="image/svg" href="./icons/favicon.svg"/>
+    <link rel="icon" type="image/svg" href="./icons/favicon.svg" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,34 +12,48 @@
 
 <body>
     <nav class="nav-container">
-        <ul class="nav-list">
+        <ul class="nav-list" name="top">
+            <li class="list-item">
+                <div id="home-icon-container">
+                    <a href="#home"><svg xmlns="http://www.w3.org/2000/svg" width="27.583" height="25" id="home-icon">
+                            <path
+                                d="M10.8 23.479v-7.5h6c.02 2.6-.04 5.205.03 7.801.189 1.104 1.369 1.283 2.288 1.199 1.327-.02 2.659.038 3.982-.031 1.104-.189 1.283-1.37 1.199-2.288v-9.68c.929-.023 1.866.047 2.79-.038 1.046-.474.199-1.447-.41-1.865L14.806.381c-.861-.815-1.968-.176-2.619.548L.256 11.675c-.815.946.505 1.501 1.314 1.305h1.731c.005 3.55-.01 7.102.008 10.651.083 1.143 1.287 1.46 2.236 1.348 1.352-.02 2.708.038 4.057-.031a1.51 1.51 0 001.198-1.47z"
+                                stroke="param(outline) #000" stroke-width=".25" />
+                        </svg>
+                    </a>
+                </div>
+
+            </li>
             <li class="list-item"><a href="#about">About</a></li>
             <li class="list-item"><a href="#projects">Projects</a></li>
         </ul>
     </nav>
     <main>
-        <div class="splash">
+        <div id="home">
             <div class="splash-text">
                 <h1>Hi, I'm Matteo</h1>
                 <div class="splash-title">
-                    <h2 id="splash-subtitle">Web Developer, Designer, Writer</h2>
+                    <h2 id="splash-subtitle">Web Developer and Designer</h2>
                     <div class="cursor"></div>
                 </div>
                 <div class="icons-container">
                     <div>
-                        <a href="https://github.com/matteomiceli" target=”_blank”><img src="./icons/github.svg" alt="View Github profile" class="icon"></a>
+                        <a href="https://github.com/matteomiceli" target=”_blank”><img src="./icons/github.svg"
+                                alt="View Github profile" class="icon"></a>
                     </div>
                     <div>
-                        <a href="https://www.linkedin.com/in/matteo-miceli-b9699552/" target=”_blank”><img src="./icons/linkedIn.svg" alt="View LinkedIn profile" class="icon"></a>
+                        <a href="https://www.linkedin.com/in/matteo-miceli-b9699552/" target=”_blank”><img
+                                src="./icons/linkedIn.svg" alt="View LinkedIn profile" class="icon"></a>
                     </div>
                     <div>
-                        <a href="mailto:omatteomiceli@gmail.com" target=”_blank”><img src="./icons/mail.svg" alt="Send me an email" class="icon" style="height: 25px;"></a>
+                        <a href="mailto:omatteomiceli@gmail.com" target=”_blank”><img src="./icons/mail.svg"
+                                alt="Send me an email" class="icon" style="height: 25px;"></a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container-white">
-            <h2 class="dark-text" id="about">About</h2>
+        <div class="container-white" id="about">
+            <h2 class="dark-text">About</h2>
             <p class="dark-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
                 piece of classical
                 Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
@@ -53,6 +67,14 @@
                 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
                 Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their
                 exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+        </div>
+        <div class="container-dark" id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <p>Pyre</p>
+                </div>
+            </div>
         </div>
     </main>
 </body>

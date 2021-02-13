@@ -21,9 +21,22 @@ body {
 }
 
 .nav-list {
-    padding: 20vh 30px 0 0;
+    padding: 10vh 30px 0 0;
     margin: 0px;
     text-align: right;
+}
+
+#home-icon-container {
+    
+}
+
+#home-icon {
+    fill:#bebebe;
+    height: 25px;
+}
+
+#home-icon:hover {
+    fill:white;
 }
 
 .list-item {
@@ -49,7 +62,7 @@ main {
     scroll-snap-type: y mandatory;
 }
 
-.splash {
+#home {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,6 +110,16 @@ main {
     scroll-snap-align: center;
 }
 
+.container-dark {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10vw;
+    background-color: #181818;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
 h1{ 
     font-size: 4em;
     font-weight: bold;
@@ -115,7 +138,7 @@ h3 {
 }
 
 p {
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .dark-text {
