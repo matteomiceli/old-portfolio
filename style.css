@@ -47,10 +47,6 @@ p {
     text-align: right;
 }
 
-#home-icon-container {
-    
-}
-
 #home-icon {
     fill:#bebebe;
     height: 25px;
@@ -143,16 +139,20 @@ main {
 }
 
 .projects-grid{
-
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, auto));
+    gap: 15px;
+    align-items: center;
 }
 
 .project {
-    
+    text-align: center;
+    background-color: #181818;
+    color: white;
+    border-radius: 15px;
 }
 
 @keyframes cursor {
     from, to { background-color: transparent }
     50% { background: white; }
   }
-
-/* make dark grey backgroudn with blinking cursor */
