@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" type="image/svg" href="./icons/favicon.svg"/>
+    <link rel="icon" type="image/svg" href="./icons/favicon.svg" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,47 +12,75 @@
 
 <body>
     <nav class="nav-container">
-        <ul class="nav-list">
+        <ul class="nav-list" name="top">
+            <li class="list-item">
+                <a href="#home">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21.983" height="19.924" id="home-icon">
+                        <path d="M8.607 18.712v-5.977h4.782c.016 2.072-.032 4.148.024 6.217.15.88 1.091 1.023 1.823.956 1.058-.016 2.12.03 3.174-.025.88-.15 1.023-1.092.956-1.824v-7.714c.74-.019 1.487.037 2.223-.03.834-.378.159-1.154-.327-1.487L11.8.304c-.686-.65-1.568-.14-2.087.436L.204 9.305c-.65.754.403 1.196 1.047 1.04h1.38c.004 2.829-.008 5.66.006 8.488.066.911 1.026 1.164 1.782 1.075 1.078-.016 2.158.03 3.234-.025a1.203 1.203 0 00.954-1.172z" 
+                        stroke="param(outline) #000" stroke-width=".199"/>
+                    </svg>
+                </a>
+            </li>
             <li class="list-item"><a href="#about">About</a></li>
             <li class="list-item"><a href="#projects">Projects</a></li>
         </ul>
     </nav>
     <main>
-        <div class="splash">
+        <div id="home">
             <div class="splash-text">
                 <h1>Hi, I'm Matteo</h1>
                 <div class="splash-title">
-                    <h2 id="splash-subtitle">Web Developer, Designer, Writer</h2>
+                    <h2 id="splash-subtitle">Web Developer and Designer</h2>
                     <div class="cursor"></div>
                 </div>
                 <div class="icons-container">
                     <div>
-                        <a href="https://github.com/matteomiceli" target=”_blank”><img src="./icons/github.svg" alt="View Github profile" class="icon"></a>
+                        <a href="https://github.com/matteomiceli" target=”_blank”><img src="./icons/github.svg"
+                                alt="View Github profile" class="icon"></a>
                     </div>
                     <div>
-                        <a href="https://www.linkedin.com/in/matteo-miceli-b9699552/" target=”_blank”><img src="./icons/linkedIn.svg" alt="View LinkedIn profile" class="icon"></a>
+                        <a href="https://www.linkedin.com/in/matteo-miceli-b9699552/" target=”_blank”><img
+                                src="./icons/linkedIn.svg" alt="View LinkedIn profile" class="icon"></a>
                     </div>
                     <div>
-                        <a href="mailto:omatteomiceli@gmail.com" target=”_blank”><img src="./icons/mail.svg" alt="Send me an email" class="icon" style="height: 25px;"></a>
+                        <a href="mailto:omatteomiceli@gmail.com" target=”_blank”><img src="./icons/mail.svg"
+                                alt="Send me an email" class="icon" style="height: 25px;"></a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container-white">
-            <h2 class="dark-text" id="about">About</h2>
-            <p class="dark-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
-                piece of classical
-                Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
-                Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a
-                Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
-                undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
-                Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the
-                theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor
-                sit amet..", comes from a line in section 1.10.32.
+        <div class="container-white" id="about">
+            <h3>About</h2>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                    piece of classical
+                    Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+                    Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from
+                    a
+                    Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the
+                    undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
+                    Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the
+                    theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum
+                    dolor
+                    sit amet..", comes from a line in section 1.10.32.
 
-                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
-                Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their
-                exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+                    Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in
+                    their
+                    exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+        </div>
+        <div class="container-white" id="projects">
+            <h3>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project">
+                        <p>Pyre</p>
+                    </div>
+                    <div class="project">
+                        <p>Pyre2</p>
+                    </div>
+                    <div class="project">
+                        <p>Pyre3</p>
+                    </div>
+                </div>
         </div>
     </main>
 </body>

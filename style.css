@@ -11,6 +11,27 @@ body {
     color: white;
 }
 
+h1{ 
+    font-size: 4em;
+    font-weight: bold;
+    color: white;
+    margin: 10px 0;
+}
+
+h2 {
+    color: #bebebe;
+}
+
+h3 {
+    color:#181818;
+    font-size: 1.6em;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1.2em;
+}
+
 .nav-container {
     display: flex;
     justify-content: right;
@@ -21,9 +42,18 @@ body {
 }
 
 .nav-list {
-    padding: 20vh 30px 0 0;
+    padding: 10vh 30px 0 0;
     margin: 0px;
     text-align: right;
+}
+
+#home-icon {
+    fill:#bebebe;
+    height: 25px;
+}
+
+#home-icon:hover {
+    fill:white;
 }
 
 .list-item {
@@ -49,7 +79,7 @@ main {
     scroll-snap-type: y mandatory;
 }
 
-.splash {
+#home {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -95,36 +125,34 @@ main {
     background-color: #f1f1f1;
     height: 100vh;
     scroll-snap-align: center;
+    color:#181818
 }
 
-h1{ 
-    font-size: 4em;
-    font-weight: bold;
+.container-dark {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10vw;
+    background-color: #181818;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+.projects-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, auto));
+    gap: 15px;
+    align-items: center;
+}
+
+.project {
+    text-align: center;
+    background-color: #181818;
     color: white;
-    margin: 10px 0;
-}
-
-h2 {
-    color: #bebebe;
-}
-
-h3 {
-    color:#bebebe;
-    font-size: 1.3em;
-    margin: 10px 0;
-}
-
-p {
-    font-size: 1.3em;
-}
-
-.dark-text {
-    color: #181818
+    border-radius: 15px;
 }
 
 @keyframes cursor {
     from, to { background-color: transparent }
     50% { background: white; }
   }
-
-/* make dark grey backgroudn with blinking cursor */
