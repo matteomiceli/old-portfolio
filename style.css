@@ -19,13 +19,19 @@ h1{
 }
 
 h2 {
-    color: #bebebe;
+    font-size: 1.8rem;
 }
 
 h3 {
     color:#181818;
     font-size: 1.6em;
     margin: 10px 0;
+}
+
+h4 {
+    color: #bebebe;
+    font-size: 1.5em;
+    margin: .8em 0;
 }
 
 p {
@@ -66,6 +72,7 @@ a {
     color: #bebebe;
     transition: color .2s;
     text-decoration: none;
+    font-size: 1.1rem;
 }
 
 a:hover {
@@ -136,20 +143,52 @@ main {
     background-color: #181818;
     height: 100vh;
     scroll-snap-align: center;
+    color: white;
 }
 
-.projects-grid{
+.projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, auto));
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, 400px);
+    gap: 25px;
     align-items: center;
+    justify-content: center;
 }
 
 .project {
     text-align: center;
     background-color: #181818;
     color: white;
-    border-radius: 15px;
+    border-radius: 5px;
+    padding: 30px;
+    height: 300px;
+}
+
+/* grid-ify the project containers */
+
+.project_img {
+    height: 70px;
+    margin: 5px;
+}
+
+.project-head {
+    color: white;
+    margin: 25px 0;
+    text-align: left;
+}
+
+.project-text {
+    font-size: 1.1rem;
+    color: white;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.project-icons-container {
+    display: grid;
+    grid-template-columns: 90px 90px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 0 0;
 }
 
 @keyframes cursor {
